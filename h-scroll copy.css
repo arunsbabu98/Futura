@@ -1,0 +1,18 @@
+body{
+    background-color: yellowgreen;
+}
+
+#Thead{
+    background-color: aquamarine;
+}
+
+#Tbody{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fail{
+    background-color: red;
+    color: white;
+}

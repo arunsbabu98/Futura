@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        div{
+            width: 200px;
+            height: 200px;
+            margin: 30px;
+            position: relative;
+        }
+
+        #div1{
+            background-color: blueviolet;
+            animation-name: move;
+            animation-iteration-count: 4;
+            animation-delay: 3s;
+            animation-direction: alternate-reverse;
+            animation-duration: 5s;
+        }
+
+        #div2{
+            background-color: cornflowerblue;
+            animation-name: move1;
+            animation-duration: 7s;
+            animation-delay: 3s;
+            animation-iteration-count: 5;
+            animation-direction: alternate-reverse;
+            
+        }
+
+        @keyframes move1{
+            0%{
+                left: 0px;
+                background-color: blue;
+            }
+            100%{
+                left: 500px;
+                background-color: chartreuse;
+                border-radius: 50px;
+            }
+        }
+
+
+
+        @keyframes move
+        {
+            0%{left: 0px;
+            background-color: aqua;}
+            100%{left: 400px;
+            background-color: chocolate;
+            border-radius: 50px;}
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    <div id="div1"></div>
+    <div id="div2"></div>
+</body>
+</html>

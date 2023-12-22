@@ -1,0 +1,17 @@
+.navbar-brand{
+    color: chartreuse;
+}
+
+#img{
+    width: 1200px;
+    height: 250px;
+    margin-top: 30px;
+}
+#para{
+    margin-left: 165px;
+    margin-right: 500px;
+}
+.card{
+    margin-right: 500px;
+
+}

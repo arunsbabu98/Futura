@@ -1,0 +1,74 @@
+button{background-color: aquamarine;
+     color: rgb(222, 88, 114);}
+h3{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+#para1
+{
+     background-color: darkgreen;
+     color: aqua;
+     margin-left: 25px;
+     text-align: center;
+}
+
+#para2
+{
+     background-color: darkolivegreen;
+     color: antiquewhite;
+     text-align: center;
+     margin-left: 25px;
+}
+
+.content
+{
+     background-color: darkred;
+     color: lightgreen;
+     text-align: center;
+     margin-left: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+div{width: 250px; height: 250px;
+background-color: blueviolet;
+margin-left: 20px;
+margin-top: 20px;}
+
+#innerdiv
+{
+     width: 150px; height: 150px;
+     background-color: aquamarine;
+     color: blueviolet;
+     text-align: center;
+     margin-left: 50px;
+     margin-top: px;
+}
+
+#futura
+{
+     width: 50px; height: 50px;
+     background-color: lightgoldenrodyellow;
+     text-align: center;
+     color: red;
+     margin-left: 100px;
+     margin-top: -100px;
+}

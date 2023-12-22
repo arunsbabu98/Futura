@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="t1"><br>
+    <input type="text" id="t2"><br>
+    <button onclick="add()">add</button>
+    <button onclick="sub()">sub</button>
+    <button onclick="mul()">mul</button>
+    <button onclick="div()">div</button><br>
+    <input type="text" id="t3">
+
+    <script>
+        var a,b,c
+
+        function add()
+        
+        {
+            a=Number(document.getElementById("t1").value) 
+            b=Number(document.getElementById("t2").value)
+            c=a+b
+            document.getElementById("t3").value=c
+        }
+
+        function sub()
+
+        {
+            a=Number(document.getElementById("t1").value) 
+            b=Number(document.getElementById("t2").value)
+            c=a-b
+            document.getElementById("t3").value=c
+        }
+
+        function mul()
+
+        {
+            a=Number(document.getElementById("t1").value) 
+            b=Number(document.getElementById("t2").value)
+            c=a*b
+            document.getElementById("t3").value=c
+        }
+
+        function div()
+
+        {
+            a=Number(document.getElementById("t1").value) 
+            b=Number(document.getElementById("t2").value)
+            c=a/b
+            document.getElementById("t3").value=c
+        }
+
+
+        
+       
+
+
+    </script>
+
+</body>
+</html>

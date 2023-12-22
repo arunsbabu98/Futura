@@ -1,0 +1,28 @@
+#im{
+    padding-left: 80px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+table,th,td{
+    height: 50%;
+    width: 50%;
+    border: 2px solid black;
+    padding: 5px;
+
+}
+
+.a{
+    background-color: yellow;
+    text-align: center;
+}
+#b{
+    background-color: red;
+}
+.IM{
+    height: 50px;
+    width: 50px;
+}
+.f{
+    text-align: center;
+}
